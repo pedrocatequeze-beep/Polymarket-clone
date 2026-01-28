@@ -5,11 +5,12 @@
   "engines": {
     "node": "20.x"
   },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+"scripts": {
+  "dev": "next dev",
+  "build": "echo $NODE_OPTIONS && next build",
+  "start": "next start",
+  "lint": "next lint"
+}
   },
   "dependencies": {
     "@headlessui/react": "^1.4.1",
