@@ -7,7 +7,7 @@
   },
 "scripts": {
   "dev": "next dev",
-  "build": "echo $NODE_OPTIONS && next build",
+  "build": "echo \"$NODE_OPTIONS\" && next build",
   "start": "next start",
   "lint": "next lint"
 }
